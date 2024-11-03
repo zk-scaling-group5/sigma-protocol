@@ -20,7 +20,7 @@ That way both the prover and verifier can derive the challenge c independently (
 
 Setup using `nix develop` (needs Nix) or `direnv allow` (needs Nix and nix-direnv).
 
-> Alternatively, install dependencies manually: `Rust stable 1.80+ with target "wasm32-unknown-unknown"`, `python3`, and any dependency listed in `./flake.nix`
+> Alternatively, install dependencies manually: `Rust stable 1.80+`, `cargo-nextest`, `python3`, and any dependency listed in `./flake.nix`
 
 Then, you can use these commands:
 
